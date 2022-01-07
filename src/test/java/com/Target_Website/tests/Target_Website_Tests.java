@@ -8,13 +8,13 @@ import com.Target_Website.pages.SearchResultsPage;
 
 public class Target_Website_Tests extends Base {
 
-	@Test(enabled = false, priority = 1)
+	@Test(enabled = true, priority = 1)
 	public void testCase_SFTC_100() {
 		HomePage myHP = new HomePage();
 		myHP.searchItem("Fish Oil").clickingOnSearchButton();
 	}
 
-	@Test(enabled = false, priority = 2)
+	@Test(enabled = true, priority = 2)
 	public void testCase_SFTC_101() {
 		HomePage myHP = new HomePage();
 		myHP.searchItem("Fish Oil").clickingOnSearchButton();
@@ -33,7 +33,7 @@ public class Target_Website_Tests extends Base {
 		mySearchResults.verifyItemResults();
 	}
 
-	@Test(enabled = false, priority = 4)
+	@Test(enabled = true, priority = 4)
 
 	public void testCase_SFTC_103() {
 		HomePage myHP = new HomePage();
@@ -43,7 +43,7 @@ public class Target_Website_Tests extends Base {
 		mySearchResults.verifyingLinks();
 	}
 	
-	@Test(enabled = false, priority = 5)
+	@Test(enabled = true, priority = 5)
 
 	public void testCase_SFTC_104() {
 		HomePage myHP = new HomePage();
@@ -51,7 +51,7 @@ public class Target_Website_Tests extends Base {
 		.verifySuggestedDropDownText();
 	}
 	
-	@Test(enabled = false, priority = 6)
+	@Test(enabled = true, priority = 6)
 
 	public void testCase_SFTC_105() {
 		HomePage myHP = new HomePage();
@@ -61,7 +61,7 @@ public class Target_Website_Tests extends Base {
 		mySearchResults.verifyErrorText();
 	}
 	
-	@Test(enabled = false, priority = 7)
+	@Test(enabled = true, priority = 7)
 
 	public void testCase_SFTC_106() {
 		HomePage myHP = new HomePage();
@@ -71,14 +71,14 @@ public class Target_Website_Tests extends Base {
 		mySearchResults.verifyErrorText();
 	}
 	
-	@Test(enabled = false, priority = 8)
+	@Test(enabled = true, priority = 8)
 
 	public void testCase_SFTC_107() {
 		HomePage myHP = new HomePage();
 		myHP.searchItem(" ").clickingOnSearchButton();
 	}
 	
-	@Test(enabled = false, priority = 9)
+	@Test(enabled = true, priority = 9)
 
 	public void testCase_SFTC_200() {
 		HomePage myHP = new HomePage();
@@ -89,7 +89,7 @@ public class Target_Website_Tests extends Base {
 		
 	}
 	
-	@Test(enabled = false, priority = 10)
+	@Test(enabled = true, priority = 10)
 
 	public void testCase_SFTC_300() {
 		HomePage myHP = new HomePage();
